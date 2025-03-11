@@ -1,0 +1,27 @@
+window:
+  padding:
+    x: 10
+    y: 10
+
+  decorations: None
+  opacity: 0.8
+  dimensions:
+    columns: 200
+    lines: 50
+
+shell:
+  program: /usr/bin/zsh
+  args:
+    - --login
+    - --interactive
+
+font:
+  normal:
+    family: "MesloLGM Nerd Font Mono" # Mono version prevents misalignment
+  size: 12
+
+import:
+  - ~/.config/alacrity/themes/themes/rainbow.yml
+
+env:
+  TERM: xterm-256color
