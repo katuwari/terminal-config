@@ -1,0 +1,31 @@
+[window]
+padding.x = 5
+padding.y = 5
+decorations = "None"
+opacity = 0.8
+blur = true
+
+option_as_alt = "Both"
+
+[font]
+normal.family = "MesloLGS Nerd Font Mono"
+
+[general]
+import = [
+  "~/.config/alacritty/themes/themes/cyber_punk_neon.toml"
+]
+
+[terminal]
+
+[cursor]
+style = { shape = "Block", blinking = "Always" }
+blink_interval = 500  # milliseconds
+unfocused_hollow = true
+thickness = 0.15  # only affects Beam or Underline, for Block keep default
+
+[cursor.vi_mode_style]
+shape = "Block"
+blinking = "Always"
+
+[mouse]
+hide_when_typing = true
